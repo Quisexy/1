@@ -1,6 +1,9 @@
+a = 1
+b = 4
 n = 1
 summa = 0
-while n >= 1 and n <= 4:
+while n >= a and n <= b:
     print('N ravno: ', n)
     n += 1
     summa = summa + n
+print('Summa ravna: ', summa - b)
